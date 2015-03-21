@@ -4,8 +4,7 @@ import urllib2, random, anonymize
 
 def readpg(theurl):
     pgreader = urllib2.build_opener()
-    response = pgreader.open(theurl)
-    html = response.read()
+    response = pgreader.urlopen(theurl).read()
     
 usrurl = raw_input("Enter a url:\n")
 readpg(usrurl)
