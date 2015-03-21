@@ -25,4 +25,4 @@ class theanonymizer(urllib2.build_opener):
 		
 	def anonymize(self):
 		self.change_proxy()
-		self.change_user_agent
+		self.change_user_agent()
