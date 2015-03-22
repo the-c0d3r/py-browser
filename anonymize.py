@@ -1,5 +1,5 @@
-import urllib2, random
-
+import urllib2
+import random
 
 class theanonymizer(urllib2.build_opener):
     """ Anonymizer Class which contain the functions
